@@ -23,6 +23,30 @@ button {
   gap: 14px;
 }
 
+.dateDisplay {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 18px;
+  border-radius: 14px;
+  background: #dbeafe;
+  text-align: center;
+}
+
+.dateDisplay p {
+  margin-bottom: 6px;
+  color: #475569;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.dateDisplay time {
+  color: #1e3a8a;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
 .todoInput {
   display: flex;
   align-items: stretch;

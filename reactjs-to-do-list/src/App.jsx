@@ -1,4 +1,5 @@
 import { useRef, useState } from 'react';
+import DateDisplay from './components/DateDisplay';
 import TodoInput from './components/TodoInput';
 import TodoList from './components/TodoList';
 
@@ -39,6 +40,7 @@ function App() {
 
 	return (
 		<>
+			<DateDisplay />
 			<TodoInput onAddTodo={addTodo} />
 			<TodoList
 				todos={todos}
