@@ -1,16 +1,21 @@
-# React + Vite
+# Daymark
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A calm, responsive daily to-do list built with React and Vite. Add, edit, complete, and delete tasks; filter the list by status; track daily progress; and use the calendar to schedule plans for future dates. Tasks are saved in your browser between visits.
 
-Currently, two official plugins are available:
+## Planning by date
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Choose **Calendar** above your task list to browse months and select a day. Add tasks while a date is selected to schedule them for that day. Days with plans are marked on the calendar, and selecting a date shows its tasks and progress.
 
-## React Compiler
+## Getting started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```sh
+npm install
+npm run dev
+```
 
-## Expanding the ESLint configuration
+## Available scripts
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `npm run dev` — start the local development server
+- `npm run build` — create a production build
+- `npm run preview` — preview the production build
+- `npm run lint` — check the project with ESLint
